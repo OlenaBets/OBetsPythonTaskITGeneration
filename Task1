@@ -1,6 +1,6 @@
 print("What is Bitcoin price today?")
-num1 = int(input(""))
+num1 = float(input(""))
 print("How much $ do you have?")
-num2 = int(input(""))
+num2 = float(input(""))
 cost = float((num2 * 1)/num1)
 print("You can buy ",cost," BTC")
